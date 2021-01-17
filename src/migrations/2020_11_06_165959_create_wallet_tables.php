@@ -18,7 +18,6 @@ class CreateWalletTables extends Migration {
             $table->decimal('amount');
             $table->tinyInteger('type');
             $table->tinyInteger('method');
-            $table->tinyInteger('source');
             $table->tinyInteger('gateway')->nullable();
             $table->text('description')->nullable();
             $table->string('callback_url')->nullable();

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace Farhoudi\Wallet\Models;
 
 use App\Constants;
 use Illuminate\Database\Eloquent\Model;
